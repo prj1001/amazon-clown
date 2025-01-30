@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+
+}
+.navbar{
+    background-color: black;
+   height:60px;
+   display: flex;
+   align-items: center;
+  
+}
+.navbar-logo{
+    margin-left: 5px;
+    height: 60px;
+    width: 123px;
+    padding-top: 10px;
+    }
+.logo{
+    background-image: url(amazon\ logo.png);
+    background-size: cover;
+    height: 40px;
+    width: 100%;
+    margin-top: 7px;
+    }
+    .border{
+        border: 1.5px solid white transparent;
+
+    }
+  .border:hover{
+    border: 1.5px solid white;
+  }
+.nav-address {
+    height: 40px;
+    width: 70px;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    align-items: center;
+    margin-left: 23px;
+    
+}
+  .address-first{
+    color: #cccc;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .address-second{
+    color: white;
+    font-size: 14px;
+    margin-left: 3px;
+  }
+  .address-logo{
+    display: flex;
+    padding-top: 4px;
+  }
+  .search-bar{
+    display: flex;
+    margin-left: 5px;
+  }
+  .search-select{ 
+    color:black;
+    background-color: rgb(216, 211, 211);
+    width: 50px;
+    height: 42px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    margin-left: 14px;
+  }
+  .search-input{
+    width: 750px;
+    border: none;
+  }
+.search-icon
+{
+  background-color: #febd68;
+  width: 35px;
+  text-align: center;
+  padding-top: 9px;
+  font-size: 1.2rem;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.language{
+  color: white;
+  height: 42px;
+  margin-left: 25px;
+  background-color: black;
+  border: none;
+  font-size: 17px;
+}
+.account{
+  background-color: black;
+  border: none;
+  height: 15px;
+  width: 135px;
+  font-size: 16px;
+  margin-left: 18px;
+  margin-top: 2px;
+}
+.hello{
+  width: 90px;
+  height:15px;
+  font-size: 13px;
+  margin-left: 23px;
+  padding-top: 3px;
+}
+.sign-in border{
+  margin-left: 10px;
+  padding-top: 2px;
+  width: 200px;
+}
+.return-order border{
+  margin-left: 10px;
+  width: 80px;
+  margin-left: 25px;
+}
+.return{
+  font-size: 13px;
+  padding-top: 3px;
+  margin-left: 20px;
+}
+.orders{
+  font-size: 17px;
+  margin-top: 1px;
+  margin-left: 20px;
+}
+.nav-cart{
+  font-size: 35px;
+  display: flex;
+  margin-left: 30px;
+  padding-top: 2px;
+}
+.cart-text{
+  font-size: 25px;
+  margin-top: 10px;
+}
+.panel{
+  background-color: #222f3d;
+  height: 40px;
+  align-items: center;font-size: 14px;
+display: flex;
+  
+}
+.panel-all{
+  margin-left: 10px;
+  font-size: 16px;
+  
+}
+.deal{
+  margin-left: 18px;
+  
+  
+}
+.customer{
+  margin-left: 14px;
+  
+}
+.registry{
+  margin-left: 14px;
+}
+.gift{
+  margin-left: 14px;
+}
+.sell{
+  margin-left:14px;
+}
+.bars{
+  font-size: 18px;
+}
+.hero-section{
+  background-image: url(hero-image.jpg);
+  height: 380px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+}
+.hero-message{
+  
+  background-color: white;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  width: 80%;
+  margin-bottom: 25px;
+}
+.msg{
+  color: black;
+}
+.hero-message a {
+  color: #007185;
+}
+.shop-section{
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+  }
+.box
+{
+  height: 380px;
+  border: 2px solid black;
+  width: 340px;
+  background-color: white;
+}
+.box-one{
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.box-image{
+height: 320px;
+width: 325px;
+background-image: url(cpu\ image.jpg);
+background-size: cover;
+margin-top: 10px;
+}
+.see{
+  color: #007185;
+  margin-top: 4px;
+}
+.box2image{
+  height: 320px;
+  width: 325px;
+  background-image: url(TOY\ IMAGE.jpg);
+  background-size: cover;
+  margin-top: 10px;
+  
+}
+.box-two{
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.see2{
+  color: #007185;
+  margin-top: 4px;
+}
+.box3image{
+  height: 320px;
+  width: 325px;
+  background-image: url(headphone\ image.jpg);
+  background-size: cover;
+  margin-top: 10px;
+}
+.box-three{
+  padding-left: 15px;
+  padding-top: 10px;}
+
+.see3{
+  color: #007185;
+  margin-top: 4px;
+}
+.box-four{
+  height: 380px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.box4image{
+  height: 320px;
+  width: 325px;
+  background-image: url(rgb\ image.jpg);
+  background-size: cover;
+  margin-top: 10px;
+}
+.see4{
+  color: #007185;
+  margin-top: 4px;
+}
+.see5{
+  color: #007185;
+  margin-top: 4px;
+}
+.box5image{
+  height: 320px;
+  width: 325px;
+  background-image: url(cafe\ image.jpg);
+  background-size: cover;
+  margin-top: 10px;
+}
+.box-five{
+  height: 380px;
+  padding-left: 15px;
+  padding-top: 10px;
+  margin-top: 15px;
+}
+.box-six{
+  height: 380px;
+  padding-left: 15px;
+  padding-top: 10px;
+  margin-top: 15px;
+}
+.box6image{
+  height: 320px;
+  width: 325px;
+  background-image: url(saree\ image.png);
+  background-size: cover;
+  margin-top: 10px;
+}
+.see6{
+  color: #007185;
+  margin-top: 4px;
+}
+.box-seven{
+  height: 380px;
+  padding-left: 15px;
+  padding-top: 10px;
+  margin-top: 15px;
+}
+.box7image{
+  height: 320px;
+  width: 325px;
+  background-image: url(furn\ image.jpg);
+  background-size: cover;
+  margin-top: 10px;
+}
+.see7{
+  color: #007185;
+  margin-top: 4px;
+}
+.box-eight{
+  height: 380px;
+  padding-left: 15px;
+  padding-top: 10px;
+  margin-top: 15px;
+}
+.box8image{
+  height: 320px;
+  width: 325px;
+  background-image: url(young-man-badminton-player-standing-white-fit-male-athlete.jpg);
+  background-size: cover;
+  margin-top: 10px;
+}
+.see8{
+  color: #007185;
+  margin-top: 4px;
+}
+.recommend{
+  font-size: 23px;
+  color: black;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  
+}
+.foot-panel1{
+ margin-top: 15px;
+  height: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 13px;
+background-color: #37475a;
+width: 100%;
+
+}
+.sign-in2{
+  display: flex;
+  width: 148px;
+  height: 30px;
+  background-color: yellow;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  margin-left: 45%;
+  border-radius: 15%;
+}
+.new-customer{
+  height: 18px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.foot-panel2{
+  display: flex;
+  
+  background-color: #222f3d;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  height: 300px;
+ 
+}
+ul a { 
+  display: block;
+  font-size: 1rem;
+  margin-top: 13px;
+  color: #dddddd;
+}
+.get{
+  font-size: 1.3rem;
+}
+.foot-panel3{
+  border-top: 0.5px solid white;
+  background-color: #222f3d;
+  height: 70px;
+}
+.logo1{
+ font-size: 45px;
+ margin-left: 49%;
+ padding-top: 10px;
+
+}
+.foot-panel4{
+  background-color: #0f1111;
+  height: 50px;
+  
+}
+.last-second{
+  text-align: center;
+  padding-top: 8px;
+  font-size: 0.75rem;
+}
+.copyright2{
+  text-align: center;
+  padding-top: 4px;
+  font-size: 0.75rem;
+}
+ 
